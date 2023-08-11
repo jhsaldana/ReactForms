@@ -1,0 +1,132 @@
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times;
+    margin-top: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*my form*/
+.myForm {
+    width: 100%;
+    max-width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    font-size: 16pt;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+input {
+    background-color: white;
+    width: 220px;
+    font-size: 16pt;
+    color:black;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 390px) {
+    input {
+        width: 150px;
+        font-size: 12pt;
+    }
+}
+
+.passwordInput {
+    width: 220px;
+}
+
+@media only screen and (max-width: 390px) {
+    .passwordInput {
+        width: 150px;
+        font-size: 12pt;
+    }
+}
+
+/*buttons for sign up and authenticate component*/
+.myButtons {
+    display: flex;
+    margin: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    margin-left: 90px;
+}
+
+@media only screen and (max-width: 390px) {
+    .myButtons {
+        width: 130px;
+        display: block;   
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .myButtons {
+        width: 130px;
+        display: block;   
+    }
+}
+    
+.submitButton, 
+.authenticateButton,
+.resetForm {
+    width: 100%;
+    max-width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 14pt;
+    margin-top: 15px;
+}
+
+.authenticateButton {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.submitButton:hover {
+    color: #b61013;
+    cursor: pointer;
+}
+
+.resetForm:hover {
+    color: #6d78ee;
+    cursor: pointer;
+}
+
+.authenticateButton:hover {
+    color: #856dee;
+    cursor: pointer;
+}
+
+p {
+   text-align: center;
+   font-size: 10pt;
+   color: black;
+}
+
+.tokenImg {
+    width: 100%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 30px;
+    margin-top: 20px;
+}
